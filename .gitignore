@@ -1,0 +1,23 @@
+# Files to ignore
+
+# Build directory
+/build/
+**/build/
+
+# Cache
+/.cache/
+
+# Compiled files
+*.o
+*.elf
+*.bin
+*.map
+
+# LSP helpers
+compile_commands.json
+.clangd
+
+# ESP-IDF config
+sdkconfig
+sdkconfig.old
+
