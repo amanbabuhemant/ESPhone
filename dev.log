@@ -3,6 +3,12 @@
 +------------------------------------------------------------------------------+
 
 
+Created basic but I think sufficient APIs to interact with SSD1306 display,
+most of the part was copy pasted because I can't remember the I2C and SSD1306
+init process, atleast for now.
+ 
+--------------------------------------------------------------------------------
+
 Just initiated the project
 
 --------------------------------------------------------------------------------
