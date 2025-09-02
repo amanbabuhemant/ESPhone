@@ -3,6 +3,14 @@
 +------------------------------------------------------------------------------+
 
 
+Created API for screen with some basic drawing functions, will extends screen
+library for more shapes and GUI components.
+
+The Screen API is a wrapper of SSD1306 API for providing some high level
+functions.
+
+--------------------------------------------------------------------------------
+
 Created basic but I think sufficient APIs to interact with SSD1306 display,
 most of the part was copy pasted because I can't remember the I2C and SSD1306
 init process, atleast for now.
