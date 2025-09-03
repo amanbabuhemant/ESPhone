@@ -3,6 +3,14 @@
 +------------------------------------------------------------------------------+
 
 
+Created keypad feature and also the keypad, was first planing to implementing a
+keypad with individual key detection... But the number of keys was a problem so
+implemented keypad as a matrix keypad, currently a 2x2 keypad, because I don't
+have enough jumper wires to connect all switches I planned, or I should try
+some short wire pieces.
+
+--------------------------------------------------------------------------------
+
 Created API for screen with some basic drawing functions, will extends screen
 library for more shapes and GUI components.
 
