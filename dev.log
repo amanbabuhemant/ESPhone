@@ -2,6 +2,20 @@
 |                                Development Log                               | 
 +------------------------------------------------------------------------------+
 
+I was just wondering how good this approach is... This just technique just
+spawned in my head last night and worked very good.
+
+For font I was just worried about... How text with different size will render...
+How we can do styling on text.. My initial plan was to store pixel/bit map of
+characters and, different size arrays for different fonts... One for 8 pixel
+height one for 10 pixel and one for 12...
+
+But, we can also store characters in form of strokes.. Like "A" can be drawn
+with 3 strokes, we can store the in form of points, then we can render that on
+screen, and we can multiply and calculate new coordinates for each point then
+render.. This approach can be consider a small-simple .ttf formate.
+
+--------------------------------------------------------------------------------
 
 Created keypad feature and also the keypad, was first planing to implementing a
 keypad with individual key detection... But the number of keys was a problem so
