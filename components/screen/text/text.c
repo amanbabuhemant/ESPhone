@@ -181,6 +181,10 @@ int screen_get_string_width(char *str, Font font) {
     while(str[l] != '\0')l++;
     for (int i=0; i<l; i++)
         w += screen_get_char_width(str[i], font);
+    if (l > 0) {
+        w += (2*TEXT_SPACING);
+        w += ((l-1)*TEXT_SPACING*2);
+    }
     return w;
 }
 

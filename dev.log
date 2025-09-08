@@ -2,6 +2,20 @@
 |                                Development Log                               | 
 +------------------------------------------------------------------------------+
 
+Worked on UI library, and also found some issues in my text library.
+
+The First issue was with the rendering.. Text was rendering 1 pixel taller then
+expected, I leave this for now. The second issue was with string width function
+which I have fixed in current commit.
+
+The UI library currently containing 3 basic widgets, Label, Button and Entry.
+More widgets will be added but first I have to implement Events and some default
+event handling to currently available widgets. But the testing might require to
+build some dummy apps... And for that I will require some more libraries...
+So I am not sure how I am going to test it now.
+
+--------------------------------------------------------------------------------
+
 I was just wondering how good this approach is... This just technique just
 spawned in my head last night and worked very good.
 
